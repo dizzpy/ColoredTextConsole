@@ -11,6 +11,9 @@
     <a href="#license">License</a>
 </p>
 
+<p align="center">
+  <img src="preview image.png" alt="Preview Image" height="450px">
+</p>
 
   <h2 id="introduction">Introduction</h2>
 
