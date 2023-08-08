@@ -48,6 +48,30 @@ g++ main.cpp -o colored_text
 
   <p>The color codes used in the program are organized in a separate header file <code>colored_text.h</code>. This header file contains macros for both regular and bright versions of different colors.</p>
 
+  <h3>Regular Colors</h3>
+  <ul>
+    <li>Black: <code>\e[0;30m</code></li>
+    <li>Red: <code>\e[0;31m</code></li>
+    <li>Green: <code>\e[0;32m</code></li>
+    <li>Yellow: <code>\e[0;33m</code></li>
+    <li>Blue: <code>\e[0;34m</code></li>
+    <li>Magenta: <code>\e[0;35m</code></li>
+    <li>Cyan: <code>\e[0;36m</code></li>
+    <li>White: <code>\e[0;37m</code></li>
+  </ul>
+
+  <h3>Bright Colors</h3>
+  <ul>
+    <li>Bright Black: <code>\e[1;30m</code></li>
+    <li>Bright Red: <code>\e[1;31m</code></li>
+    <li>Bright Green: <code>\e[1;32m</code></li>
+    <li>Bright Yellow: <code>\e[1;33m</code></li>
+    <li>Bright Blue: <code>\e[1;34m</code></li>
+    <li>Bright Magenta: <code>\e[1;35m</code></li>
+    <li>Bright Cyan: <code>\e[1;36m</code></li>
+    <li>Bright White: <code>\e[1;37m</code></li>
+  </ul>
+
   <h2 id="compatibility">Compatibility</h2>
 
   <p>These ANSI escape codes may not work in all terminal emulators. Make sure to test the program in the terminal you are using.</p>
